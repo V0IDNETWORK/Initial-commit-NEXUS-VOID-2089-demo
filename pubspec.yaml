@@ -1,4 +1,4 @@
-name: nexus_void_2089
+name: nexus_void_2089_demo
 description: A cyberpunk digital civilization portfolio
 publish_to: "none"
 
@@ -21,15 +21,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # shaders:
-  #   - shaders/void_warp.frag
-  #   - shaders/hologram.frag
-  #   - shaders/chromatic_aberration.frag
-  #   - shaders/energy_field.frag
-
-  # assets:
-  #   - assets/rive/
-  #   - assets/lottie/
-  #   - assets/audio/
-  #   - assets/images/
