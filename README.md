@@ -1,295 +1,264 @@
 # NEXUS VOID 2089
 
 <p align="center">
-  <img src="docs/demo.gif" width="100%" alt="NEXUS VOID 2089">
+  <img src="docs/demo.gif" alt="NEXUS VOID 2089 demo" width="100%" />
 </p>
 
 <p align="center">
-  <strong>An immersive cyberpunk civilization rendered entirely in Flutter.</strong>
+  <strong>A cinematic Flutter civilization that turns a portfolio into a living cyberpunk universe.</strong>
 </p>
 
 <p align="center">
-  Procedural Universe • Interactive Dimensions • Neural Networks • AI Entity • Real-Time Rendering
+  Built with Flutter • Dart • CustomPainter • Real-time interaction • Procedural visuals
 </p>
 
 ---
 
-## Overview
+## What is this?
 
-NEXUS VOID 2089 is an experimental Flutter experience that transforms a traditional portfolio into a living digital civilization.
+**NEXUS VOID 2089** is a single-file Flutter experience built around a futuristic, interactive universe.
 
-Instead of navigating pages, visitors travel through dimensions.
+It is not a standard portfolio, landing page, or dashboard.  
+It behaves like a digital civilization that boots up, responds to input, and reveals different dimensions as you explore.
 
-Instead of reading static content, they explore worlds.
+The entire experience is driven by the app in `main.dart`, including:
 
-Instead of opening menus, they interact with an evolving cybernetic ecosystem.
-
-The project is implemented primarily inside a single `main.dart` file and demonstrates how Flutter can be pushed far beyond conventional application interfaces.
-
----
-
-## Core Experience
-
-### Classified Boot Sequence
-
-Every session begins with a cinematic initialization protocol.
-
-```text
-INITIALIZING NEXUS CORE...
-CONNECTING TO VOID NETWORK...
-VERIFYING DNA SIGNATURE...
-SYNCING QUANTUM GRID...
-DEPLOYING CITY-LATTICE...
-AWAKENING MEMORY FRAGMENTS...
-OPENING DIMENSIONAL PORTALS...
-ACCESS GRANTED.
-```
-
-The universe gradually awakens before granting access to the civilization.
+- a cinematic boot sequence,
+- a procedural neon city and cosmic background,
+- six interactive dimensions,
+- XP, levels, ranks, and achievements,
+- a dynamic identity / DNA system,
+- a hidden secret mode,
+- a living “conscious entity” that reacts to what the user does.
 
 ---
 
-### Six Interactive Dimensions
+## Main features
 
-The application is organized into six interconnected dimensions:
+### Boot sequence
+The app starts with a full initialization flow:
 
-| ID | Dimension |
-|----|------------|
-| 01 | HOME |
-| 02 | MEMORY |
-| 03 | PROJECTS |
-| 04 | ARCHIVE |
-| 05 | MATRIX |
-| 06 | SIGNALS |
+- `INITIALIZING NEXUS CORE...`
+- `CONNECTING TO VOID NETWORK...`
+- `VERIFYING DNA SIGNATURE...`
+- `SYNCING QUANTUM GRID...`
+- `DEPLOYING CITY-LATTICE...`
+- `AWAKENING MEMORY FRAGMENTS...`
+- `OPENING DIMENSIONAL PORTALS...`
+- `ACCESS GRANTED.`
 
-Each dimension contains unique visual systems, interactions, and narrative elements.
+This gives the whole experience a “system booting into life” feeling.
 
----
+### Six dimensions
+The world is split into six navigable sections:
 
-### Procedural Identity System
+1. **HOME DIMENSION**  
+   The main landing space of the civilization.
 
-Every launch generates a unique identity.
+2. **WHO AM I DIMENSION**  
+   Memory fragments and identity-driven storytelling.
 
-Examples:
+3. **PROJECT DIMENSION**  
+   Projects presented like planets and worlds.
 
-```text
-VOID-52X
-NEXUS-81K
-OMEGA-44Z
-SIGMA-73P
-ARC-19Q
-```
+4. **BLOG ARCHIVE**  
+   A classified knowledge vault / archive system.
 
-This identity becomes part of the universe's internal state and progression system.
+5. **INFO MATRIX**  
+   A neural skill map with animated signals.
 
----
+6. **FIND ME GATEWAY**  
+   Contact and social access points as portals.
 
-## Visual Technology
+### Interactive progression
+The app rewards exploration with:
 
-The entire environment is rendered in real time.
+- XP
+- levels
+- rank progression
+- discoveries
+- achievements
 
-Features include:
+Examples include:
 
-- Procedural particle fields
-- Dynamic planets
-- Neon orbital rings
-- Atmospheric fog layers
-- Cyberpunk city skylines
-- Energy bridges
-- Animated signal networks
-- Holographic interface systems
-- Portal rendering effects
+- First Contact
+- Neural Walker
+- Explorer
+- Data Miner
+- Archive Hunter
+- Reality Hacker
+- Dimension Master
+- Void Traveler
 
-No video backgrounds are used.
+### Procedural identity
+Each session generates a unique identity / DNA signature, so the universe feels alive and different every time.
 
-Everything is generated directly through Flutter rendering pipelines.
+### Hidden secret channel
+The app contains secret interactions that can unlock a hidden state.
 
----
+Triggers include:
 
-## Neural Matrix
+- pressing **Enter**
+- typing keywords like `VOID`, `NEXUS`, or `ROOT`
+- using the signal pill in the corner
 
-Technical skills are represented as an animated neural network.
+### Real-time reactive universe
+The background and overlays respond to:
 
-Current nodes include:
-
-- Python
-- C
-- JavaScript
-- Dart
-- Linux
-- Go
-- Ruby
-- Pentest
-- Web Security
-- Kotlin
-- PHP
-- HTML/CSS
-
-Connections continuously animate and react to pointer movement.
-
----
-
-## Project Worlds
-
-Projects are not displayed as ordinary cards.
-
-Each project is visualized as a planet-like world inside the universe.
-
-Every world contains:
-
-- Individual atmosphere
-- Distinct color signature
-- Orbital behavior
-- Exploration-based presentation
-
-The concept transforms repositories into explorable dimensions.
+- mouse movement
+- scroll direction
+- keyboard input
+- dimension switching
+- secret unlocks
 
 ---
 
-## Archive System
+## Visual systems
 
-The archive acts as a classified knowledge vault.
+The visual layer is intentionally dense and cinematic:
 
-Articles are presented as discoverable records rather than traditional blog posts.
+- glowing nebula clouds
+- layered particle fields
+- orbital rings
+- procedural planets
+- a cyberpunk skyline
+- scanlines
+- fog / depth overlays
+- fracture lines
+- holographic HUD cards
+- signal maps
+- a portal core in the center
 
-Topics include:
-
-- Boot architecture
-- Identity generation
-- Project worlds
-- Archive systems
-- Signal intelligence
-
----
-
-## Conscious Entity
-
-A resident digital intelligence exists inside the universe.
-
-The entity responds to:
-
-- Dimension changes
-- Exploration progress
-- Secret discoveries
-- User interaction
-
-Rather than behaving like a chatbot, it acts as a living system embedded within the environment.
+All of this is rendered live in Flutter using custom painters and animated state.
 
 ---
 
-## Achievement System
+## Controls
 
-Exploration unlocks progression milestones.
-
-Examples:
-
-```text
-First Contact
-Neural Walker
-Explorer
-Data Miner
-Archive Hunter
-Reality Hacker
-Dimension Master
-Void Traveler
-Midnight Coder
-Cyber Sentinel
-System Whisperer
-Signal Sculptor
-```
-
-The more users explore, the more of the universe becomes available.
+| Action | Result |
+|---|---|
+| Move mouse / trackpad | Reacts to pointer position |
+| Scroll up / down | Moves between dimensions and adds discovery energy |
+| Left Arrow | Previous dimension |
+| Right Arrow | Next dimension |
+| Enter | Opens the secret channel |
 
 ---
 
-## Hidden Secrets
-
-Several hidden systems are intentionally embedded.
-
-Special interactions unlock:
-
-- Secret corridors
-- Alternate states
-- Hidden achievements
-- Additional AI responses
-
-Curiosity is rewarded.
-
----
-
-## Built With
+## Tech stack
 
 - Flutter
 - Dart
-- CustomPainter
-- Canvas API
-- AnimationController
-- Gradient Shaders
-- Procedural Generation
-- Real-Time Rendering
-- Particle Systems
-- Interactive State Machines
+- `MaterialApp`
+- `StatefulWidget`
+- `AnimationController`
+- `CustomPainter`
+- `Canvas`
+- `BackdropFilter`
+- `Matrix4`
+- `PointerEvent` / `RawKeyboardListener`
+- `HapticFeedback`
+- Procedural rendering
+- Real-time UI state
 
 ---
 
-## Performance Highlights
+## Why this project stands out
 
-- Thousands of animated particles
-- Fully procedural rendering
-- Continuous universe simulation
-- Responsive interaction system
-- Real-time visual effects
-- Single-file architecture experiment
+This project is designed to feel like a **living cyberpunk operating system** rather than a normal app.
 
----
+It combines:
 
-## Philosophy
+- storytelling,
+- motion design,
+- game-like progression,
+- futuristic UI,
+- and a single-file architecture.
 
-NEXUS VOID 2089 is not a website.
-
-It is not a dashboard.
-
-It is not a portfolio.
-
-It is a digital civilization.
-
-A place where software, storytelling, exploration, and visual experimentation converge into a single interactive universe.
+It is a strong showcase for Flutter’s rendering and animation capabilities.
 
 ---
 
-## Gallery
+## Project philosophy
 
-### Boot Sequence
+The core idea behind NEXUS VOID 2089 is simple:
 
-![Boot](docs/boot.png)
+- a portfolio should feel memorable,
+- a UI should feel alive,
+- a first impression should feel cinematic,
+- and exploration should be rewarded.
 
-### Civilization Core
-
-![Core](docs/core.png)
-
-### Neural Matrix
-
-![Matrix](docs/matrix.png)
-
-### Signal Network
-
-![Signals](docs/signals.png)
+The result is a universe that behaves like a digital organism.
 
 ---
 
-## Running
+## Getting started
 
 ```bash
 flutter pub get
 flutter run
 ```
 
+If you are building for Windows, Android, Web, macOS, Linux, or iOS, Flutter will generate the platform-specific build output as usual.
+
+---
+
+## Suggested file structure
+
+```text
+.
+├── lib/
+│   └── main.dart
+├── assets/
+│   └── demo.gif
+├── android/
+├── ios/
+├── web/
+├── windows/
+├── macos/
+├── linux/
+├── test/
+├── pubspec.yaml
+└── README.md
+```
+
+---
+
+## Screenshots
+
+Add your own images in `docs/` and update the paths below.
+
+### Boot sequence
+<p align="center">
+  <img src="docs/boot.png" alt="Boot sequence" width="100%" />
+</p>
+
+### Civilization core
+<p align="center">
+  <img src="docs/core.png" alt="Civilization core" width="100%" />
+</p>
+
+### Neural matrix
+<p align="center">
+  <img src="docs/matrix.png" alt="Neural matrix" width="100%" />
+</p>
+
+### Signal gateway
+<p align="center">
+  <img src="docs/signals.png" alt="Signal gateway" width="100%" />
+</p>
+
+---
+
+## Notes
+
+- The app is centered around `main.dart`.
+- The experience is intentionally experimental and visual-first.
+- It is meant to be explored, not just read.
+- The hidden systems are part of the design.
+
 ---
 
 <p align="center">
   <strong>ENTER THE VOID.</strong>
-</p>
-
-<p align="center">
-  NEXUS VOID 2089 • Flutter Experimental Civilization
 </p>
