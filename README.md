@@ -15,8 +15,7 @@
 [![Material 3](https://img.shields.io/badge/material%203-darkgreen.svg)](https://m3.material.io/)
 [![Platform](https://img.shields.io/badge/platform-web%20%7C%20desktop%20%7C%20mobile-informational.svg)](https://flutter.dev/multi-platform)
 
-**Repository status:** generated from the provided `main(7).dart` Flutter source file.
-**Scope note:** this README is reverse-engineered from a single uploaded file, not a full checked-out repository.
+
 
 ## Value Proposition
 
@@ -26,19 +25,7 @@
 - Support pointer, keyboard, and scroll-driven interaction.
 - Use layered `CustomPainter` rendering for a high-contrast neon / cyberpunk presentation.
 
-## Animated Content Placeholders
 
-The following placeholders are intentionally left as asset references for a future media pass:
-
-<image-card alt="Demo" src="docs/assets/demo.gif"></image-card>
-<image-card alt="Dashboard" src="docs/assets/dashboard.gif"></image-card>
-<image-card alt="Workflow" src="docs/assets/workflow.gif"></image-card>
-
-What each asset should show:
-
-- `demo.gif`: the boot sequence, portal reveal, and dimension switching.
-- `dashboard.gif`: top HUD, progress ring, achievement ticker, and skill matrix.
-- `workflow.gif`: the interaction flow from pointer movement to secret unlock.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
